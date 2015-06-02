@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D0442ACB1B17AAFD0028ADA7"
+               BuildableName = "Quotes WatchKit App.app"
+               BlueprintName = "Quotes WatchKit App"
+               ReferencedContainer = "container:Quotes.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0442A951B17AAC70028ADA7"
                BuildableName = "Quotes.app"
                BlueprintName = "Quotes"
@@ -23,14 +37,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0442AAD1B17AAC80028ADA7"
-               BuildableName = "QuotesTests.xctest"
-               BlueprintName = "QuotesTests"
+               BlueprintIdentifier = "D0442AC11B17AAFD0028ADA7"
+               BuildableName = "Quotes WatchKit Extension.appex"
+               BlueprintName = "Quotes WatchKit Extension"
                ReferencedContainer = "container:Quotes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,23 +56,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D0442AAD1B17AAC80028ADA7"
-               BuildableName = "QuotesTests.xctest"
-               BlueprintName = "QuotesTests"
-               ReferencedContainer = "container:Quotes.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0442A951B17AAC70028ADA7"
-            BuildableName = "Quotes.app"
-            BlueprintName = "Quotes"
+            BlueprintIdentifier = "D0442ACB1B17AAFD0028ADA7"
+            BuildableName = "Quotes WatchKit App.app"
+            BlueprintName = "Quotes WatchKit App"
             ReferencedContainer = "container:Quotes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,16 +76,27 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Quotes">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0442A951B17AAC70028ADA7"
-            BuildableName = "Quotes.app"
-            BlueprintName = "Quotes"
+            BlueprintIdentifier = "D0442ACB1B17AAFD0028ADA7"
+            BuildableName = "Quotes WatchKit App.app"
+            BlueprintName = "Quotes WatchKit App"
             ReferencedContainer = "container:Quotes.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D0442ACB1B17AAFD0028ADA7"
+            BuildableName = "Quotes WatchKit App.app"
+            BlueprintName = "Quotes WatchKit App"
+            ReferencedContainer = "container:Quotes.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -91,16 +106,27 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.springboard"
+         RemotePath = "/Quotes">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D0442A951B17AAC70028ADA7"
-            BuildableName = "Quotes.app"
-            BlueprintName = "Quotes"
+            BlueprintIdentifier = "D0442ACB1B17AAFD0028ADA7"
+            BuildableName = "Quotes WatchKit App.app"
+            BlueprintName = "Quotes WatchKit App"
             ReferencedContainer = "container:Quotes.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D0442ACB1B17AAFD0028ADA7"
+            BuildableName = "Quotes WatchKit App.app"
+            BlueprintName = "Quotes WatchKit App"
+            ReferencedContainer = "container:Quotes.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Quotes_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="YA6-si-x7l">
+                            <items>
+                                <tableRow identifier="QuoteRow" id="9Ni-gO-AeI" customClass="QuoteRow" customModule="Quotes_WatchKit_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="beE-Xb-NhE">
+                                        <items>
+                                            <label alignment="left" text="Label" numberOfLines="0" id="rrT-Ax-iRu"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="quoteLabel" destination="rrT-Ax-iRu" id="S4w-Et-gUR"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <menu key="menu" id="Ehg-is-eGZ">
+                        <items>
+                            <menuItem title="Funny" icon="info" id="wDd-X2-uo4">
+                                <connections>
+                                    <action selector="funnyTapped" destination="AgC-eL-Hgc" id="bSu-b4-yjs"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Motivation" icon="accept" id="yM9-pj-aNz">
+                                <connections>
+                                    <action selector="motivationTapped" destination="AgC-eL-Hgc" id="hxr-fG-bVr"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Boring" icon="trash" id="sqL-yX-zmU">
+                                <connections>
+                                    <action selector="boringTapped" destination="AgC-eL-Hgc" id="UBI-6L-qBE"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="table" destination="YA6-si-x7l" id="cUU-3i-FtY"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>
